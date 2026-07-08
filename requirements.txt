@@ -1,0 +1,15 @@
+# ComfyUI_Rebels_NLD requirements
+# Install into ComfyUI's embedded python:
+#   python_embeded\python.exe -m pip install -r requirements.txt
+#
+# torch / torchvision are intentionally NOT listed - ComfyUI ships its own CUDA build
+# and pip would replace it with the wrong one.
+
+transformers>=4.50.0
+accelerate>=0.30.0
+safetensors>=0.4.0
+gguf>=0.10.0
+einops>=0.7.0
+numpy
+Pillow
+tqdm
