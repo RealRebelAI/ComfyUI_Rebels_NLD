@@ -1,4 +1,4 @@
-# ComfyUI_Rebels_NLD -- NODES ARE OPERATIONAL BUT SLOW. Currently working on patches for speed ups. they will run in their current state but i recommend git pulling frequently.
+# ComfyUI_Rebels_NLD -- NODES ARE OPERATIONAL BUT SLOW. Currently working on patches for speed ups. they will run in their current state but i recommend git pulling frequently. FLASH ATTENTION HELPS DRAMATICALLY.
 
 GGUF loader + text-to-image nodes for NVIDIA **NL-Diffusion-Image** (masked discrete diffusion
 LM + IBQ VQ decoder) on consumer hardware. By RealRebelAI.
