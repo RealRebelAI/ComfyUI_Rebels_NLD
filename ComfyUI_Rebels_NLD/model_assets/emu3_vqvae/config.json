@@ -1,0 +1,32 @@
+{
+  "architectures": [
+    "Emu3p5VisionVQModel"
+  ],
+  "auto_map": {
+    "AutoConfig": "configuration_emu3p5visionvq.Emu3p5VisionVQConfig",
+    "AutoModel": "modeling_emu3p5visionvq.Emu3p5VisionVQModel"
+  },
+  "attn_resolutions": [
+    16
+  ],
+  "ch": 256,
+  "ch_mult": [
+    1,
+    1,
+    2,
+    2,
+    4
+  ],
+  "codebook_size": 131072,
+  "double_z": false,
+  "dropout": 0.0,
+  "embed_dim": 256,
+  "in_channels": 3,
+  "model_type": "Emu3p5VisionVQ",
+  "num_res_blocks": 4,
+  "out_ch": 3,
+  "resolution": 256,
+  "torch_dtype": "float32",
+  "transformers_version": "4.51.0",
+  "z_channels": 256
+}
