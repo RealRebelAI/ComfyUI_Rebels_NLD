@@ -3,7 +3,6 @@
 GGUF loader + text-to-image nodes for NVIDIA **NL-Diffusion-Image** (masked discrete diffusion
 LM + IBQ VQ decoder) on consumer hardware. By RealRebelAI.
 
-https://github.com/RealRebelAI/ComfyUI_Rebels_NLD
 
 ## Install
 
