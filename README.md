@@ -1,4 +1,4 @@
-# ComfyUI_Rebels_NLD
+# ComfyUI_Rebels_NLD -- WORK IN PROGRESS! WILL NOT RUN YET!
 
 GGUF loader + text-to-image nodes for NVIDIA **NL-Diffusion-Image** (masked discrete diffusion
 LM + IBQ VQ decoder) on consumer hardware. By RealRebelAI.
