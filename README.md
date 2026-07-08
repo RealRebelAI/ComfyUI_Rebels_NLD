@@ -12,6 +12,8 @@ LM + IBQ VQ decoder) on consumer hardware. By RealRebelAI.
    - **dLM GGUF** → `ComfyUI/models/unet/`
    - **vqvae** (bf16 `.safetensors`) → `ComfyUI/models/vae/`
 4. The config/tokenizer/modeling code ships in `model_assets/`
+
+## IMPORTANT
 5. model.safetensors file MUST go in "custom_nodes\ComfyUI_Rebels_NLD\model_assets\emu3_vqvae"
 
 https://huggingface.co/nvidia/NL-Diffusion-Image/blob/main/emu3_vqvae/model.safetensors
