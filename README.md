@@ -18,6 +18,9 @@ LM + IBQ VQ decoder) on consumer hardware. By RealRebelAI.
 
 https://huggingface.co/nvidia/NL-Diffusion-Image/blob/main/emu3_vqvae/model.safetensors
 
+## Flash Attention Wheels for Windows Users (speed up gen time)
+youll have to do the work to install based on your environment. - https://huggingface.co/Wildminder/AI-windows-whl/tree/main
+
 ## Nodes
 
 - **NL-Diffusion dLM Loader (GGUF)** — pick `gguf_name` and `vqvae_name` from dropdowns, choose device.
