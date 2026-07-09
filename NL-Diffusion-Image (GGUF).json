@@ -1,0 +1,398 @@
+{
+  "id": "0b015a06-4fe3-44d5-a7d2-c1605706fd62",
+  "revision": 0,
+  "last_node_id": 195,
+  "last_link_id": 431,
+  "nodes": [
+    {
+      "id": 194,
+      "type": "easy clearCacheAll",
+      "pos": [
+        1880,
+        4370
+      ],
+      "size": [
+        150,
+        30
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 1,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "anything",
+          "type": "*",
+          "link": 431
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "*",
+          "links": [
+            429
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-easy-use",
+        "ver": "625efbfa2fc20c31797dfffcbb41a26b6d91ab7b",
+        "Node name for S&R": "easy clearCacheAll",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.8"
+        }
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 195,
+      "type": "easy cleanGpuUsed",
+      "pos": [
+        1870,
+        4430
+      ],
+      "size": [
+        170,
+        30
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "anything",
+          "type": "*",
+          "link": 429
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "*",
+          "links": [
+            430
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-easy-use",
+        "ver": "625efbfa2fc20c31797dfffcbb41a26b6d91ab7b",
+        "Node name for S&R": "easy cleanGpuUsed",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.8"
+        }
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 193,
+      "type": "easy cleanGpuUsed",
+      "pos": [
+        2500,
+        4270
+      ],
+      "size": [
+        170,
+        30
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "anything",
+          "type": "*",
+          "link": 427
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "*",
+          "links": [
+            428
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-easy-use",
+        "ver": "625efbfa2fc20c31797dfffcbb41a26b6d91ab7b",
+        "Node name for S&R": "easy cleanGpuUsed",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.8"
+        }
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 192,
+      "type": "easy clearCacheAll",
+      "pos": [
+        2510,
+        4220
+      ],
+      "size": [
+        150,
+        30
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "anything",
+          "type": "*",
+          "link": 426
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "*",
+          "links": [
+            427
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-easy-use",
+        "ver": "625efbfa2fc20c31797dfffcbb41a26b6d91ab7b",
+        "Node name for S&R": "easy clearCacheAll",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.8"
+        }
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 3,
+      "type": "SaveImage",
+      "pos": [
+        2500,
+        4350
+      ],
+      "size": [
+        840,
+        940
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 428
+        }
+      ],
+      "outputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.26.0",
+        "Node name for S&R": "SaveImage",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.8"
+        }
+      },
+      "widgets_values": [
+        "NL-Diff/Test_"
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 2,
+      "type": "NLDTextToImage",
+      "pos": [
+        2050,
+        4360
+      ],
+      "size": [
+        420,
+        890
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "nld_model",
+          "type": "NLD_MODEL",
+          "link": 430
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            426
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "NLDTextToImage",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.8"
+        }
+      },
+      "widgets_values": [
+        "close-up portrait of a womans face with electric red hair, sunset lighting, 8k detail",
+        1024,
+        1024,
+        20,
+        5,
+        1,
+        166572252036600,
+        "randomize",
+        "gpu",
+        0,
+        "off (flat step time)",
+        "argmax",
+        0,
+        0,
+        0,
+        3
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
+      "id": 10,
+      "type": "NLDLoaderGGUF",
+      "pos": [
+        2050,
+        4150
+      ],
+      "size": [
+        420,
+        160
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "NLD_MODEL",
+          "type": "NLD_MODEL",
+          "links": [
+            431
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "NLDLoaderGGUF",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.8"
+        }
+      },
+      "widgets_values": [
+        "NL-Diffusion-dLM-Q5_K_M.gguf",
+        "nld_vqvae_bf16.safetensors",
+        "cuda",
+        "cpu_stream (low VRAM)",
+        "flash_attention_2"
+      ],
+      "color": "#323",
+      "bgcolor": "#535"
+    }
+  ],
+  "links": [
+    [
+      426,
+      2,
+      0,
+      192,
+      0,
+      "IMAGE"
+    ],
+    [
+      427,
+      192,
+      0,
+      193,
+      0,
+      "*"
+    ],
+    [
+      428,
+      193,
+      0,
+      3,
+      0,
+      "IMAGE"
+    ],
+    [
+      429,
+      194,
+      0,
+      195,
+      0,
+      "*"
+    ],
+    [
+      430,
+      195,
+      0,
+      2,
+      0,
+      "NLD_MODEL"
+    ],
+    [
+      431,
+      10,
+      0,
+      194,
+      0,
+      "NLD_MODEL"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ue_links": [],
+    "links_added_by_ue": [],
+    "ds": {
+      "scale": 0.6481692708333343,
+      "offset": [
+        -1548.2451457555019,
+        -3667.1436365446734
+      ]
+    },
+    "frontendVersion": "1.45.19",
+    "VHS_latentpreview": false,
+    "VHS_latentpreviewrate": 0,
+    "VHS_MetadataImage": true,
+    "VHS_KeepIntermediate": true
+  },
+  "version": 0.4
+}
